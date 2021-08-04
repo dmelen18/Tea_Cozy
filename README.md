@@ -1,3 +1,3 @@
 # Tea_Cozy
 
-**Link**
+Link to Tea Cozy project: **https://dmelen18.github.io/Tea_Cozy/**
