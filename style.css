@@ -46,7 +46,6 @@ a{
     background-size: cover;
     height: 700px;
     max-width: 1200px;
-    flex-wrap: wrap;
 }
 .banner{
     width: 100%;
