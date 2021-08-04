@@ -9,7 +9,7 @@ body {
 }
 header {
     width: 100%;
-    height: 69px;
+    min-height: 69px;
     background-color: black;
     border-bottom: 1px solid seashell;
     display: flex;
@@ -24,7 +24,7 @@ header img {
     margin-left: 10px;
 }
 header nav {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 li {
     display: inline-block;
@@ -45,9 +45,11 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    width: 1200px;
+    max-width: 1200px;
+    flex-wrap: wrap;
 }
 .banner{
+    width: 100%;
     background-color: black;
 }
 .imgboxes{
@@ -65,7 +67,7 @@ a{
     background-image: url('images/img-locations-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    min-height: 750px;
 }
 #locations h2 {
     padding-top: 150px;
